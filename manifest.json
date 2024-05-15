@@ -3,7 +3,6 @@
     "name": "YouTube Video Ad Blocker",
     "version": "1.0",
     "description": "Skip YouTube video ads automatically",
-    "permissions": ["activeTab", "declarativeContent"],
     "content_scripts": [
       {
         "matches": ["*://*.youtube.com/*"],
