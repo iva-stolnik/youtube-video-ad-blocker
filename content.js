@@ -10,7 +10,7 @@ function replaceAds() {
     // Detect the ad preview element
     const adPreview = document.querySelector('div.ytp-preview-ad');
     const video = document.querySelector('video'); // Target ad video specifically
-   console.log(adPreview);
+
     if(video && !video.src)
     {
         video.style = "display:none;"
