@@ -61,10 +61,11 @@ function handleInitialLoad() {
 
 
 // Ensure handleInitialLoad is called as early as possible
-if (document.readyState === 'loading') {  // Loading hasn't finished yet
+if (document.readyState === 'loading') {  
+    // Loading hasn't finished yet
     document.addEventListener('DOMContentLoaded', handleInitialLoad);
-
-} else {  // `DOMContentLoaded` has already fired
+} else { 
+    // `DOMContentLoaded` has already fired
     handleInitialLoad();
 }
 
